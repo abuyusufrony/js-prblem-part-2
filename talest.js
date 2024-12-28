@@ -13,3 +13,21 @@ function getHeight(number){
 }
 const max=getHeight(height)
 console.log('max height are',max)
+
+
+
+ shortes highet in class
+function getshortes(number){
+    let sort=number[0]
+for(const num of number){
+    if(sort>num){
+        sort=num;
+    }
+
+
+}
+return sort;
+}
+let  highest=[10,12,15,22];
+const max=getshortes(highest);
+console.log('shortest highest',max)
