@@ -15,5 +15,5 @@ return total;
     
 
 }
-const total=discountPrice(2)
+const total=discountPrice(201)
 console.log(total)
